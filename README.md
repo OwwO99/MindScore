@@ -35,7 +35,7 @@ To train the model using the Pick-a-Pic dataset, run the following command:
 python train.py --is_train --is_eval --epochs 1 --batch 128 --dataset Pick-a-pic --lr1 5e-6 --lr2 5e-5 --tau 0.2 --is_save --check steps --model_type blip --layers
 ```
 
-#### Training with ImagePrefer
+### Training with ImagePrefer
 
 To train the model using the ImagePrefer dataset, use this command:
 
